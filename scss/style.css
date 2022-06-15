@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+body {
+  /* Old browsers */
+  background: #ece89d;
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#1515b1), color-stop(50%, #113882), to(#1e3f3b));
+  background: linear-gradient(to bottom, #1515b1 0%, #113882 50%, #1e3f3b 100%);
+}
+
+.framePage {
+  background-color: white;
+  margin: 50px 100px;
+  min-height: 90%;
+  border-radius: 2px;
+}
+
+.containerHead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px auto;
+  padding: 60px;
+}
+
+.containerHead .LogoMHC .MCH {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.containerHead .menuContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 31px;
+}
+
+.containerHead .menuContainer .menuButton {
+  padding: 5px;
+  margin-left: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.containerHead .menuContainer .menuButton:hover {
+  color: #1515b1;
+  border-bottom: 1px solid #1515b1;
+  cursor: pointer;
+}
+
+.containerHead .menuContainer .menuButton__hide {
+  -webkit-box-shadow: 5px 5px 10px #c1c1c1;
+          box-shadow: 5px 5px 10px #c1c1c1;
+  font-size: 18px;
+  color: white;
+  background-color: #1515b1;
+  margin-left: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  max-height: 100%;
+}
+
+.containerHead .menuContainer .menuButton__hide:hover {
+  cursor: pointer;
+  background-color: #2d2dda;
+}
+
+.bodyPageContainer {
+  max-width: 70%;
+  padding: 60px;
+}
+
+.bodyPageContainer .searchContainer {
+  margin-right: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bodyPageContainer .searchContainer .textParagraf {
+  max-width: 70%;
+}
+
+.bodyPageContainer .searchContainer .textParagraf p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bodyPageContainer .searchContainer .textParagraf p span {
+  padding: 15px 0;
+  color: #2d2dda;
+  display: block;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.bodyPageContainer .searchContainer .windowSearch {
+  margin-top: 25px;
+  border: 1px solid #1515b1;
+  margin-right: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bodyPageContainer .searchContainer .windowSearch input {
+  display: inline-block;
+  padding: 10% 0% 10% 25%;
+  background-image: url("../img/search.png");
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+}
+
+.bodyPageContainer .searchContainer .windowSearch button {
+  display: block;
+  color: white;
+  background-color: #1515b1;
+  -webkit-box-shadow: 5px 5px 10px #c1c1c1;
+          box-shadow: 5px 5px 10px #c1c1c1;
+  padding: 2% 10%;
+  display: block;
+}
+
+.bodyPageContainer .searchContainer .windowSearch button:hover {
+  cursor: pointer;
+  background-color: #2d2dda;
+}
+
+.bodyPageContainer .introdactory {
+  position: absolute;
+  left: 44.9%;
+  top: 25%;
+  max-width: 80%;
+  min-height: 60%;
+}
+
+.bodyPageContainer .introdactory .backImg {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
